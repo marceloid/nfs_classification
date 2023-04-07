@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "nfs-classification"
+version = "0.1.0"
+description = ""
+authors = ["João Marcelo <joaomarceloav@gmail.com>"]
+readme = "README.md"
+packages = [{include = "nfs_classification"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pandas = "^2.0.0"
+openpyxl = "^3.1.2"
+requests = "^2.28.2"
+
+
+[tool.poetry.group.dev.dependencies]
+blue = "^0.9.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
